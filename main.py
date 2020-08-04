@@ -3,8 +3,6 @@ import requests
 
 eel.init('src')
 
-
-# api file is hidden, write your api key in api.txt and place in news folder.
 api_file = open("src\\news\\api.txt", "r")
 api = api_file.read()
 url = "http://newsapi.org/v2/top-headlines?country=in&apiKey=" + api + "&pageSize=10"
