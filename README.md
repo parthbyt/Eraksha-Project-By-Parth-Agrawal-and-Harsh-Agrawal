@@ -26,3 +26,7 @@ You need to get a newsapi key in order to view news in the app from [here](https
 Then run newsapi.py and enter your api key.
 
 Then you can run main.py.
+
+## Contributing
+
+This project will not accept contributions till the end of 2020.
