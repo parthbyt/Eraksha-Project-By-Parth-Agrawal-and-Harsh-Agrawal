@@ -15,7 +15,7 @@ However you can still use our news page.
 
 ### Requirements
 
-- Python 3 is reuired. Python 2 will not work.
+- Python 3 is required. Python 2 will not work.
 - Install requirements ```pip install -r requirements.txt ```
 - Install Chrome. Other browsers may work.
 
