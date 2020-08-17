@@ -106,4 +106,15 @@ button:hover{
     color: orangered;
 }
 
+.first{
+    color: red;
+}
+
+.second{
+    color: blue;
+}
+
+.headings h2{
+   display: inline;
+}
 
