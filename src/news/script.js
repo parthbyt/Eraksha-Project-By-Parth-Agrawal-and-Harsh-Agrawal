@@ -26,7 +26,9 @@ var jsCode = function() {
 			document.getElementById("u" + num).innerHTML = "Get News";
 			im = data.articles[i].urlToImage;
 			document.getElementById("i" + num).src = im;
-		}
+        }
+
+        
 	}
 }
 

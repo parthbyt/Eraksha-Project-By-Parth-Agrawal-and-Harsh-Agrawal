@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device width, initial-scale=1">
+    <title>News Alert | SPEEDTEST!</title> 
+    <link rel="stylesheet" href="../makeover.css">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <script src="script.js"></script>
+  </head>
+  <style>
+      #button{
+          background-color: orangered;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 26px;
+          margin: 4px 2px;
+          cursor: pointer;
+          width: 50%;
+          margin-top: 100px;
+      }
+      
+      h4{
+          margin-top: 30px;
+      }
+  </style>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+           <h1><center>SPEEDTEST</center></h1>
+         </div>
+         <nav>
+             <ul>
+                 <li ><a href="../index.html">Back</a></li>
+                 <li><a href="speedtest/tips.html">Click for tips to improve internet speed</a></li>
+             </ul>
+         </nav>
+     </div>
+    </header>
+    <center> 
+    <input type="button" id="button" value="Start Speedtest" onclick="return change(this);" />
+        
+    <script type="text/javascript">
+    function change(el) 
+    {
+        if (el.value==="Start Speedtest")
+            el.value="Testing...";
+        else
+            el.value="Start Speedtest";
+    }
+    </script>
+        
+    <h4>Current Speed:</h4>
+    </center>
+  </body>
+</html>
