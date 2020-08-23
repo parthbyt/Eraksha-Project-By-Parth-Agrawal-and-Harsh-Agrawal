@@ -8,6 +8,7 @@
    <link rel="stylesheet" href="../makeover.css">
     <link rel="stylesheet" href="../bootstrap.min.css">
 	<script src="../eel.js"></script>
+	<script src="script.js"></script>
   </head>
   <style>
       .first{
@@ -42,134 +43,266 @@
       <center><a href="covidtips.html">Click for some tips on COVID-19</a></center>
       <center><a href="../index.html">Back</a></center>
     </head>
-    <section class="headings">
-     <center>
-      <h2 class="first">CONFIRMED</h2>
-      <h2 class="second">ACTIVE</h2>
-      <h2 class="third">RECOVERED</h2>
-      <h2 class="4th">DEATH</h2>
-    </center>
-    </section>
    <center>  
     <table border="1">
         <tr>
-          <th>State</th>
-          <th class="first">Confirmed</th>
-          <th class="second">Active</th>
-          <th class="third">Recovered</th>
-          <th>Death</th>
-          <th class="first">Confirmed Today</th>
+          <th><h2>State</h2></th>
+          <th class="first"><h2 class="first">CONFIRMED</h2></th>
+          <th class="second"><h2 class="second">ACTIVE</h2></th>
+          <th class="third"><h2 class="third">RECOVERED</h2></th>
+          <th><h2 class="4th">DEATH</h2></th>
         </tr>
         <tr>
           <td>Andhra Pradesh</td>
+		  <td id="APc"></td>
+		  <td id="APa"></td>
+		  <td id="APr"></td>
+		  <td id="APd"></td>
         </tr>
         <tr>
           <td>Arunachal Pradesh</td>
+		  <td id="ARc"></td>
+		  <td id="ARa"></td>
+		  <td id="ARr"></td>
+		  <td id="ARd"></td>
         </tr>
         <tr>
           <td>Assam</td>
+		  <td id="ASc"></td>
+		  <td id="ASa"></td>
+		  <td id="ASr"></td>
+		  <td id="ASd"></td>
         </tr>
         <tr>
           <td>Bihar</td>
+		  <td id="BRc"></td>
+		  <td id="BRa"></td>
+		  <td id="BRr"></td>
+		  <td id="BRd"></td>
         </tr>
         <tr>
           <td>Chhattisgarh</td>
+		  <td id="CTc"></td>
+		  <td id="CTa"></td>
+		  <td id="CTr"></td>
+		  <td id="CTd"></td>
         </tr>
         <tr>
           <td>Goa</td>
+		  <td id="GAc"></td>
+		  <td id="GAa"></td>
+		  <td id="GAr"></td>
+		  <td id="GAd"></td>
         </tr>
         <tr>
           <td>Gujrat</td>
+		  <td id="GJc"></td>
+		  <td id="GJa"></td>
+		  <td id="GJr"></td>
+		  <td id="GJd"></td>
         </tr>
         <tr>
           <td>Haryana</td>
+		  <td id="HRc"></td>
+		  <td id="HRa"></td>
+		  <td id="HRr"></td>
+		  <td id="HRd"></td>
         </tr>
         <tr>
           <td>Himachal Pradesh</td>
+		  <td id="HPc"></td>
+		  <td id="HPa"></td>
+		  <td id="HPr"></td>
+		  <td id="HPd"></td>
         </tr>
          <tr>
           <td>Jharkhand</td>
+		  <td id="JHc"></td>
+		  <td id="JHa"></td>
+		  <td id="JHr"></td>
+		  <td id="JHd"></td>
         </tr>
         <tr>
           <td>Karnataka</td>
+		  <td id="KAc"></td>
+		  <td id="KAa"></td>
+		  <td id="KAr"></td>
+		  <td id="KAd"></td>
         </tr>
         <tr>
           <td>Kerala</td>
+		  <td id="KLc"></td>
+		  <td id="KLa"></td>
+		  <td id="KLr"></td>
+		  <td id="KLd"></td>
         </tr>
         <tr>
           <td>Madhya Pradesh</td>
+		  <td id="MPc"></td>
+		  <td id="MPa"></td>
+		  <td id="MPr"></td>
+		  <td id="MPd"></td>
         </tr>
         <tr>
           <td>Maharashtra</td>
+		  <td id="MHc"></td>
+		  <td id="MHa"></td>
+		  <td id="MHr"></td>
+		  <td id="MHd"></td>
         </tr>
         <tr>
           <td>Manipur</td>
+		  <td id="MNc"></td>
+		  <td id="MNa"></td>
+		  <td id="MNr"></td>
+		  <td id="MNd"></td>
         </tr>
         <tr>
           <td>Meghalaya</td>
+		  <td id="MLc"></td>
+		  <td id="MLa"></td>
+		  <td id="MLr"></td>
+		  <td id="MLd"></td>
         </tr>
         <tr>
           <td>Mizoram</td>
+		  <td id="MZc"></td>
+		  <td id="MZa"></td>
+		  <td id="MZr"></td>
+		  <td id="MZd"></td>
         </tr>
         <tr>
           <td>Nagaland</td>
+		  <td id="NLc"></td>
+		  <td id="NLa"></td>
+		  <td id="NLr"></td>
+		  <td id="NLd"></td>
         </tr>
          <tr>
           <td>Odisha</td>
+		  <td id="ORc"></td>
+		  <td id="ORa"></td>
+		  <td id="ORr"></td>
+		  <td id="ODd"></td>
         </tr>
         <tr>
           <td>Punjab</td>
+		  <td id="PBc"></td>
+		  <td id="PBa"></td>
+		  <td id="PBr"></td>
+		  <td id="PBd"></td>
         </tr>
         <tr>
           <td>Rajastham</td>
+		  <td id="RJc"></td>
+		  <td id="RJa"></td>
+		  <td id="RJr"></td>
+		  <td id="RJd"></td>
         </tr>
         <tr>
           <td>Sikkkim</td>
+		  <td id="SKc"></td>
+		  <td id="SKa"></td>
+		  <td id="SKr"></td>
+		  <td id="SKd"></td>
         </tr>
         <tr>
           <td>Tamil Nadu</td>
+		  <td id="TNc"></td>
+		  <td id="TNa"></td>
+		  <td id="TNr"></td>
+		  <td id="TNd"></td>
         </tr>
         <tr>
           <td>Telangana</td>
+		  <td id="TGc"></td>
+		  <td id="TGa"></td>
+		  <td id="TGr"></td>
+		  <td id="TGd"></td>
         </tr>
         <tr>
           <td>Tripura</td>
+		  <td id="TRc"></td>
+		  <td id="TRa"></td>
+		  <td id="TRr"></td>
+		  <td id="TRd"></td>
         </tr>
         <tr>
           <td>Uttar Pradesh</td>
+		  <td id="UPc"></td>
+		  <td id="UPa"></td>
+		  <td id="UPr"></td>
+		  <td id="UPd"></td>
         </tr>
         <tr>
           <td>Uttarakhand</td>
+		  <td id="UTc"></td>
+		  <td id="UTa"></td>
+		  <td id="UTr"></td>
+		  <td id="UTd"></td>
         </tr>
          <tr>
           <td>West Bengal</td>
+		  <td id="WBc"></td>
+		  <td id="WBa"></td>
+		  <td id="WBr"></td>
+		  <td id="WBd"></td>
         </tr>
         <tr>
           <td>Andaman and Nicobar Islands</td>
+		  <td id="ANc"></td>
+		  <td id="ANa"></td>
+		  <td id="ANr"></td>
+		  <td id="ANd"></td>
         </tr>
         <tr>
           <td>Chandigarh</td>
+		  <td id="CHc"></td>
+		  <td id="CHa"></td>
+		  <td id="CHr"></td>
+		  <td id="CHd"></td>
         </tr>
         <tr>
-          <td>Dadra and Nagar Haveli</td>
+          <td>Dadra and Nagar Haveli and Daman and Diu</td>
+		  <td id="DNc"></td>
+		  <td id="DNa"></td>
+		  <td id="DNr"></td>
+		  <td id="DNd"></td>
         </tr>
-		<tr>
-			<td>Daman and Diu</td>
-		</tr>
         <tr>
           <td>Delhi</td>
+		  <td id="DLc"></td>
+		  <td id="DLa"></td>
+		  <td id="DLr"></td>
+		  <td id="DLd"></td>
         </tr>
         <tr>
           <td>Jammu and Kashmir</td>
+		  <td id="JKc"></td>
+		  <td id="JKa"></td>
+		  <td id="JKr"></td>
+		  <td id="JKd"></td>
         </tr>
         <tr>
           <td>Ladakh</td>
+		  <td id="LAc"></td>
+		  <td id="LAa"></td>
+		  <td id="LA"></td>
+		  <td id="LAd"></td>
         </tr>
         <tr>
           <td>Lakshadweep</td>
+		  <td id="LDc"></td>
+		  <td id="LDa"></td>
+		  <td id="LD"></td>
+		  <td id="LDd"></td>
         </tr>
         <tr>
           <td>Puducherry</td>
+		  <td id="PYc"></td>
+		  <td id="PYa"></td>
+		  <td id="PY"></td>
+		  <td id="PYd"></td>
         </tr>
     </table>
 </center>

@@ -12,4 +12,9 @@ try:
 except:
     print("Newsapi not found. News will not be shown")
 
+@eel.expose
+def CovidData():
+    cData = requests.get("https://api.covid19india.org/v4/data.json").json()
+    return cData
+
 eel.start('index.html', port=5010, size=(2500, 2500))
