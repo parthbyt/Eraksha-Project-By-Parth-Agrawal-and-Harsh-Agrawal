@@ -31,6 +31,14 @@
       }
   </style>
   <body>
+  <script>
+	function test() {
+		eel.get_server();
+		eel.test_download()(download);
+		eel.test_upload()(upload);
+		document.getElementById("button").value = "Start Speedtest";
+	}
+  </script>
     <header>
       <div class="container">
         <div id="branding">
@@ -51,12 +59,18 @@
     {
         if (el.value==="Start Speedtest")
             el.value="Testing...";
+			
         else
             el.value="Start Speedtest";
+		test();
     }
     </script>
         
     <h4>Current Speed:</h4>
+	<div class="container">
+	<h2 id="download"></h2>
+	<h2 id="upload"></h2>
+	</div>
     </center>
   </body>
 </html>
