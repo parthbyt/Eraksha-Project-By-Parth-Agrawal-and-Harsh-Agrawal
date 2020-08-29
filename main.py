@@ -31,7 +31,7 @@ def test_download():
 
 @eel.expose
 def test_upload():
-    u = round((s.upload() / 1000000), 2)
+    u = round((s.upload(pre_allocate=False) / 1000000), 2)
     return u
 
 eel.start('index.html', port=5010, size=(2500, 2500), allowed_extensions=['.js', '.html', '.css'])
