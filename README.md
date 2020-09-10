@@ -7,19 +7,13 @@ It is named as News Alert, providing news.
 
 This app is built for Windows, and is not tested on any other os.
 
-## Currently this app is under development.
+## Requirements
 
-Please do not use app now. it is not ready.
-
-However you can still use our news page.
-
-### Requirements
-
-- Python 3 is required. Python 2 will not work.
+- Python 3.6 or 3.7 is required. Python 2 will not work.
 - Install requirements ```pip install -r requirements.txt ```
 - Install Chrome. Other browsers may work.
 
-### Basic setup (News page)
+### Setup (News page)
 
 You need to get a newsapi key in order to view news in the app from [here](https://newsapi.org/)
 
@@ -27,6 +21,19 @@ Then run newsapi.py and enter your api key.
 
 Then you can run main.py.
 
+## Usage
+
+Install the requirements, add newsapi (if needed) and run main.py
+
 ## Contributing
 
 This project will not accept contributions till the end of 2020.
+
+## Credits
+
+- Parth Agrawal
+- Harsh Agrawal
+
+## License
+
+Project is licensed under Mozilla Public License 2.0
