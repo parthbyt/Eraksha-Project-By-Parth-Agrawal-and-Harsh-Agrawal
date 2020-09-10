@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Eraksha Project By Parh Agrawal And Harsh Agrawal
+Eraksha Project By Parh Agrawal And Harsh Agrawal
 
-You can use the [editor on GitHub](https://github.com/parthbyt/Eraksha-Project-By-Parth-Agrawal-and-Harsh-Agrawal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is the github repository for project for the [eRaksha 2020 competion](https://www.eraksha.net/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It is named as News Alert, providing news.
 
-### Markdown
+This app is built for Windows, and is not tested on any other os.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Requirements
 
-```markdown
-Syntax highlighted code block
+- Python 3.6 or 3.7 is required. Python 2 will not work.
+- Install requirements ```pip install -r requirements.txt ```
+- Install Chrome. Other browsers may work.
 
-# Header 1
-## Header 2
-### Header 3
+### Setup (News page)
 
-- Bulleted
-- List
+You need to get a newsapi key in order to view news in the app from [here](https://newsapi.org/)
 
-1. Numbered
-2. List
+Then run newsapi.py and enter your api key.
 
-**Bold** and _Italic_ and `Code` text
+Then you can run main.py.
 
-[Link](url) and ![Image](src)
-```
+## Usage
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Install the requirements, add newsapi (if needed) and run main.py
 
-### Jekyll Themes
+## Contributing
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/parthbyt/Eraksha-Project-By-Parth-Agrawal-and-Harsh-Agrawal/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This project will not accept contributions till the end of 2020.
 
-### Support or Contact
+## Credits
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Parth Agrawal
+- Harsh Agrawal
+
+## License
+
+Project is licensed under Mozilla Public License 2.0
