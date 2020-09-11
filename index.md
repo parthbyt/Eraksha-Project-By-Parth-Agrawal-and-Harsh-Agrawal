@@ -3,7 +3,7 @@ Eraksha Project By Parh Agrawal And Harsh Agrawal
 
 This is the github repository for project for the [eRaksha 2020 competion](https://www.eraksha.net/)
 
-It is named as News Alert, providing news.
+It is named as India News Alert, providing news.
 
 This app is built for Windows, and is not tested on any other os.
 
